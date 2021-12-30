@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/_grid.css">
+    <link rel="stylesheet" href="./css/_flex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <div class="container-header">
+            <div class="logo">
+                <a href="" class="logo-link">
+                    <img src="./img/logo.png" alt="hần mềm quản lý phòng tiêm chủng dịch vụ">
+                </a>
+            </div>
+            <div class="menu">
+                <ul class="list-menu">
+                    <li class="item-menu">
+                        <a class="item-menu__link" href="#trangchu">Trang chủ</a>
+                    </li>
+                    <li class="item-menu">
+                        <a class="item-menu__link" href="#tinhnang">Tính năng</a>
+                    </li>
+                    <li class="item-menu">
+                        <a class="item-menu__link" href="#banggia">Bảng giá</a>
+                    </li>
+                    <li class="item-menu">
+                        <a class="item-menu__link" href="#ungdung">Ứng dụng di động</a>
+                    </li>
+                    <li class="item-menu">
+                        <a class="item-menu__link" href="#lienhe">Liên hệ</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-outline-green ">Đăng nhập</a>
+                <a href="#" data-toggle="modal" data-target="#myModal" class="btn btn-green ">Đăng ký dùng thử</a>
+            </div>
+        </div>
+    </header>
+    <div class="slider">
+        <div class="box">
+            <div class="review-box">
+                <div class="box-item slider-1">
+                    <div class="box-text">
+                        <h2 class="text-title animation-text__heading" data-wow-delay="0.1s" data-wow-duration="1500ms" title="Giải pháp điện toán đám mây quản lý tối ưu cho các cơ sở tiêm chủng dịch vụ" >Giải pháp điện toán đám mây quản lý tối ưu cho các cơ sở tiêm chủng dịch vụ</h2>
+                        <p class="text-title-content animation-text__content" data-wow-delay="0.3s" data-wow-duration="1500ms" title="Quản lý toàn diện quy trình TCDV tại các cơ sở tiêm, đáp ứng nhu cầu quản trị vận hành, đồng thời tăng hiệu suất kinh doanh và chăm sóc khách hàng." >Quản lý toàn diện quy trình TCDV tại các cơ sở tiêm, đáp ứng nhu cầu quản trị vận hành, đồng thời tăng hiệu suất kinh doanh và chăm sóc khách hàng.</p>
+                        <a href="#" class="btn btn-gradient animation-text__link ig-animation" data-wow-delay="0.5s" data-wow-duration="1500ms" data-toggle="modal" data-target="#myModal" title="Dùng thử miễn phí" tabindex="-1">Dùng thử miễn phí</a>
+                    </div>
+                    <div class="box-img">
+                        <img src="./img/bg-02.png" class="slider-img animation-img" alt="Tối ưu trải nghiệm người dùng nhờ ứng dụng SmedCare" >
+                    </div>
+                </div>
+                <div class="box-item slider-2">
+                    <div class="box-text">
+                        <h2 class="text-title ig-2" data-wow-delay="0.1s" data-wow-duration="1500ms" title="Quản lý hiệu quả và chuỗi phòng tiêm">Quản lý <span class="cl-blue">hiệu quả</span> phòng tiêm và chuỗi phòng tiêm</h2>
+                        <p class="text-title-content ig-2" data-wow-delay="0.3s" data-wow-duration="1500ms" title="Linh hoạt trong quản lý cơ sở đơn lẻ và quản lý chuỗi cơ sở, tối ưu hóa chi phí đầu tư và nhanh chóng triển khai tại cơ sở mới." style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: none;">Linh hoạt trong quản lý cơ sở đơn lẻ và quản lý chuỗi cơ sở, tối ưu hóa chi phí đầu tư và nhanh chóng triển khai tại cơ sở mới.</p>
+                        <a href="#" class="btn btn-gradient ig-animation" data-wow-delay="0.5s" data-wow-duration="1500ms" data-toggle="modal" data-target="#myModal" title="Dùng thử miễn phí" tabindex="-1" >Dùng thử miễn phí</a>
+                    </div>
+                    <div class="box-img img-2">
+                        <img src="./img/Slider-2.png" class="slider-img "  alt="Tối ưu trải nghiệm người dùng nhờ ứng dụng SmedCart">
+                    </div>
+                </div>
+                <div class="box-item slider-3"> 
+                    <div class="box-text">
+                        <h2 class="text-title ig-3" data-wow-delay="0.1s" data-wow-duration="1500ms" title="" ><span class="cl-blue">Đồng bộ</span> dữ liệu với <br> Hệ thống Tiêm chủng quốc gia</h2>
+                        <p class="text-title-content ig-3" data-wow-delay="0.3s" data-wow-duration="1500ms" title="Linh hoạt trong quản lý cơ sở đơn lẻ và quản lý chuỗi cơ sở, tối ưu hóa chi phí đầu tư và nhanh chóng triển khai tại cơ sở mới."> nhật lịch sử tiêm chủng và quản lý thông tin khách hàng hiệu quả bằng mã tiêm chủng quốc gia.</p>
+                        <a href="#" class="btn btn-gradient ig-animation" data-wow-delay="0.5s" data-wow-duration="1500ms" data-toggle="modal" data-target="#myModal" title="Dùng thử miễn phí" tabindex="-1" >Dùng thử miễn phí</a>
+                    </div>
+                    <div class="box-img img-3">
+                        <img src="./img/Slider-3.png" class="slider-img "  alt="Tối ưu trải nghiệm người dùng nhờ ứng dụng SmedCart">
+                    </div>
+                </div>
+                <div class="box-item slider-4">
+                    <div class="box-text">
+                        <h2 class="text-title " data-wow-delay="0.1s" data-wow-duration="1500ms" title="" >Tối ưu <span class="cl-blue">trải nghiệm</span> người dùng nhờ ứng dụng SmedCare</h2>
+                        <p class="text-title-content " data-wow-delay="0.3s" data-wow-duration="1500ms" title="Quản lý toàn diện quy trình TCDV tại các cơ sở tiêm, đáp ứng nhu cầu quản trị vận hành, đồng thời tăng hiệu suất kinh doanh và chăm sóc khách hàng." >Quản lý toàn diện quy trình TCDV tại các cơ sở tiêm, đáp ứng nhu cầu quản trị vận hành, đồng thời tăng hiệu suất kinh doanh và chăm sóc khách hàng.</p>
+                        <a href="#" class="btn btn-gradient ig-animation " data-wow-delay="0.5s" data-wow-duration="1500ms" data-toggle="modal" data-target="#myModal" title="Dùng thử miễn phí" tabindex="-1" >Dùng thử miễn phí</a>
+                    </div>
+                    <div class="box-img img-4 active1">
+                        <img src="./img/phone.png" class="slider-img slider-img-4 " alt="Tối ưu trải nghiệm người dùng nhờ ứng dụng">
+                        <div class="box-img__item ">
+                            <img src="./img/bg-2.png" class="slider-img__item1 " data-wow-delay="0.9s" data-wow-duration="1500ms" alt="Tối ưu trải nghiệm người dùng nhờ ứng dụng SmedCare">
+                            <img src="./img/bg-3.png" class="slider-img__item2 " data-wow-delay="0.9s" data-wow-duration="1500ms" alt="Tối ưu trải nghiệm người dùng nhờ ứng dụng SmedCare">
+                            <img src="./img/bg-4.png" class="slider-img__item3" data-wow-delay="0.9s" data-wow-duration="1500ms" alt="Tối ưu trải nghiệm người dùng nhờ ứng dụng SmedCare">
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+            <div class="slider-control" style="display:none;">
+                <div class="btn btn-next">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="dots-control">
+                <div class="dot-item active" >
+                </div>
+                <div class="dot-item">
+                </div>
+                <div class="dot-item">
+                </div>
+                <div class="dot-item">
+                </div>
+            </div>
+    </div>
+    <div class="banner">
+        <div class="banner-container">
+            <div class="banner-content">
+                <h2 class="banner-content__heading animation-fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms" title="" ><span class="span-tt">Chúng Tôi</span> Luôn Đem Lòng Tin Đến Mọi Nhà</h2>
+                <p class="banner-content__para animation-fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms" title="" >Đã có mặt tại các xã trên địa bàn tỉnh Hà Nội</p>
+                <a href="#" data-toggle="modal" data-target="#myModal" class="btn btn-green btn-animation animation-fadeInUp" title="" data-wow-delay="0.5s" data-wow-duration="1500ms" >Đăng ký dùng thử</a>
+            </div>
+            <div class="banner-img animation-fadeInUp" data-wow-delay="0.5s" data-wow-duration="1500ms" >
+                <img src="./img/counter.png" class="">
+            </div>
+        </div>
+       
+    </div>
+    <div id="benefit" class="benefit">
+        <h2 class="benefit-heading" data-wow-delay="0.1s" data-wow-duration="1500ms">Lợi ích của Phần mềm tiêm chủng SMED</h2>
+    
+        <p class="benefit-para " data-wow-delay="0.3s" data-wow-duration="1500ms" >Hãy để chúng tôi đồng hành cùng thành công của bạn</p>
+    
+        <div class="benefit-container">
+                <div class="benefit-list " data-wow-delay="0.1s" data-wow-duration="1500ms">
+                    <div class="benefit-item hover-transform">
+                        <a href="#">
+                            <img src="./img/icon-1.png" alt="Đầy đủ quy trình nghiệp vụ">
+                            <h3>Đầy đủ quy trình nghiệp vụ</h3>
+                            <p>Đáp ứng đầy đủ quy trình tiêm của cơ sở, giảm thiểu thao tác người dùng</p>
+                        </a>
+                    </div>
+                    <div class="benefit-item hover-transform ">
+                        <a href="#">
+                            <img src="./img/icon-2.png" alt="Quản lý và phân quyền">
+                            <h3>Quản lý và phân quyền</h3>
+                            <p>Quản lý và phân quyền chi tiết theo vai trò từng bộ phận, giúp cơ sở hoạt động hiệu quả</p>
+                        </a>
+                    </div>
+                    <div class="benefit-item hover-transform ">
+                        <a href="#">
+                            <img src="./img/icon-3.png" alt="Dễ dàng mở rộng">
+                            <h3>Dễ dàng mở rộng</h3>
+                            <p>Dễ dàng mở rộng các dịch vụ kết nối (thanh toán, Hóa đơn điện tử, SMS…)</p>
+                        </a>
+                    </div>
+                    <div class="benefit-item hover-transform ">
+                        <a href="#">
+                            <img src="./img/icon-4.png" alt="Báo cáo thống kê">
+                            <h3>Báo cáo thống kê</h3>
+                            <p>Tổng hợp đầy đủ các báo cáo doanh thu, kho... theo thời gian thực</p>
+                        </a>
+                    </div>
+                    <div class="benefit-item hover-transform ">
+                        <a href="#">
+                            <img src="./img/icon-5.png" alt="Nền tảng Cloud">
+                            <h3>Nền tảng Cloud</h3>
+                            <p class="d-none d-lg-block">Nền tảng Cloud an toàn, bảo mật, khả năng mở rộng nhanh chóng, không mất phí cài đặt, bảo trì</p>
+                            <p class="d-block d-lg-none">Nền tảng Cloud an toàn, bảo mật, không mất phí cài đặt, bảo trì</p>
+                        </a>
+                    </div>
+                    <div class="benefit-item hover-transform ">
+                        <a href="#">
+                            <img src="./img/icon-6.png" alt="Tối ưu hóa chi phí">
+                            <h3>Tối ưu hóa chi phí</h3>
+                            <p>Tối ưu hóa chi phí đầu tư, triển khai nhanh chóng tại cơ sở mới</p>
+                        </a>
+                    </div>
+                </div>
+        </div>
+        <div class="ct-img " data-wow-delay="0.5s" data-wow-duration="1500ms">
+            <img src="./img/benefit.png" class="img-benefit " alt="Lợi ích của Phần mềm tiêm chủng SMED">
+        </div>
+    </div>
+    <div id="tinhnang" class="feature page-section">
+        <div class="feature-a">
+            <h2 class="title-3 wow animate__fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.1s; animation-name: fadeInUp;">TÍNH NĂNG NỔI BẬT</h2>
+            <p class="desc-3 wow animate__fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: fadeInUp;">Phần mềm Tiêm chủng SMED tích hợp nhiều tính năng ưu việt, giảm thiểu thao tác tối đa cho người dùng</p>
+    
+            <div class="container-s">
+                <div class="row">
+                    <div class="col-md-6 text-left">
+                        <div class="text-ac">
+                            <h3 class="title-4 wow animate__fadeInLeft" data-wow-delay="0.1s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.1s; animation-name: fadeInLeft;">Đồng bộ dữ liệu với Hệ thống Tiêm chủng quốc gia</h3>
+                            <p class="desc-4 wow animate__fadeInLeft" data-wow-delay="0.2s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.2s; animation-name: fadeInLeft;">Đồng bộ dữ liệu (đối tượng, ID, lịch sử tiêm chủng) với Hệ thống tiêm chủng Quốc gia theo Quyết định số 3421/QĐ-BYT của Bộ Y tế ngày 28/07/2017.</p>
+                            <a class="l-link d-flex wow animate__fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1500ms" href="javascript:void(0)" data-toggle="modal" data-target="#myModal" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: fadeInLeft;">Dùng thử ngay <em class="icon-arrow-right"></em></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="https://smed.vn/Template/image/feature/feature-s.png" class="feature-img wow animate__fadeInRight" data-wow-delay="0.3s" data-wow-duration="1500ms" alt="Đồng bộ dữ liệu với Hệ thống Tiêm chủng quốc gia" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: fadeInRight;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feature-b">
+            <div class="container-s">
+                <div class="row">
+                    <div class="col-md-6 col-lg-7 ">
+                        <img src="https://smed.vn/Template/image/feature/feature-b.png" class="wow animate__fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1500ms" alt="Quản lý chuỗi phòng tiêm" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                    </div>
+                    <div class="col-md-6 col-lg-5">
+                        <div class="text-ac">
+                            <h3 class="title-4 wow animate__fadeInRight" data-wow-delay="0.1s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.1s; animation-name: fadeInRight;">Quản lý chuỗi phòng tiêm</h3>
+                            <p class="desc-4 wow animate__fadeInRight" data-wow-delay="0.2s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.2s; animation-name: fadeInRight;">Tổng hợp số liệu nhanh chóng, chính xác; Báo cáo doanh thu, thông tin lịch hẹn… chi tiết đến từng phòng tiêm trong chuỗi; Không giới hạn số điểm tiêm trong chuỗi; Thông tin khách hàng, dịch vụ, hàng hóa đồng bộ trong toàn chuỗi.</p>
+                            <a class="l-link d-flex wow animate__fadeInRight" data-wow-delay="0.3s" data-wow-duration="1500ms" href="javascript:void(0)" data-toggle="modal" data-target="#myModal" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: fadeInRight;">Dùng thử ngay <em class="icon-arrow-right"></em></a>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        <div class="feature-c">
+            <div class="container-s">
+                <div class="row">
+                    <div class="col-md-6 col-lg-5 ">
+                        <div class="text-ac">
+                            <h3 class="title-4 wow animate__fadeInLeft" data-wow-delay="0.1s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.1s; animation-name: fadeInLeft;">Đa dạng các dịch vụ giá trị gia tăng</h3>
+                            <p class="desc-4 wow animate__fadeInLeft" data-wow-delay="0.2s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.2s; animation-name: fadeInLeft;">Tích hợp SMS nhắc lịch hẹn tiêm, Hóa đơn điện tử, hiển thị màn hình phát loa gọi số... tăng trải nghiệm và gắn kết khách hàng.</p>
+                            <a class="l-link d-flex wow animate__fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1500ms" href="javascript:void(0)" data-toggle="modal" data-target="#myModal" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: fadeInLeft;">Dùng thử ngay <em class="icon-arrow-right"></em></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6  offset-lg-1">
+                        <img src="https://smed.vn/Template/image/feature/feature-c.png" class="wow animate__fadeInRight" data-wow-delay="0.3s" data-wow-duration="1500ms" alt="Đa dạng các dịch vụ giá trị gia tăng" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: fadeInRight;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feature-d">
+            <div class="container-s">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 ">
+                        <img src="https://smed.vn/Template/image/feature/feature-d.png" class="wow animate__fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1500ms" alt="Quản lý gói tiêm, vắc xin đặt trước" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                    </div>
+                    <div class="col-md-6  col-lg-5 offset-lg-1">
+                        <div class="text-ac">
+                            <h3 class="title-4 wow animate__fadeInRight" data-wow-delay="0.1s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.1s; animation-name: fadeInRight;">Quản lý gói tiêm, vắc xin đặt trước</h3>
+                            <p class="desc-4 d-flex wow animate__fadeInRight" data-wow-delay="0.2s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.2s; animation-name: fadeInRight;"> <em class="icon-fontello-record"></em> Giúp Khách hàng đảm bảo tiêm chủng đầy đủ, đúng lịch cho bé; chủ động về thời gian, tài chính khi cho bé đi tiêm.</p>
+                            <p class="desc-4 d-flex wow animate__fadeInRight" data-wow-delay="0.3s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: fadeInRight;"> <em class="icon-fontello-record"></em> Giúp Phòng tiêm chủ động nguồn vắc xin, chăm sóc Khách hàng hiệu quả</p>
+                            <a class="l-link d-flex wow animate__fadeInRight" data-wow-delay="0.4s" data-wow-duration="1500ms" href="javascript:void(0)" data-toggle="modal" data-target="#myModal" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.4s; animation-name: fadeInRight;">Dùng thử ngay <em class="icon-arrow-right"></em></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="feature-e">
+            <div class="container-s">
+                <div class="row">
+                    <div class="col-md-6 col-lg-5 ">
+                        <div class="text-ac">
+                            <h3 class="title-4 wow animate__fadeInLeft" data-wow-delay="0.1s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.1s; animation-name: fadeInLeft;">Báo cáo thống kê</h3>
+                            <p class="desc-4 d-flex wow animate__fadeInLeft" data-wow-delay="0.2s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.2s; animation-name: fadeInLeft;"> <em class="icon-fontello-record"></em> Tổng hợp Báo cáo doanh thu, số lượt tiêm, số vacxin… nhanh chóng, cập nhật theo thời gian thực; có thể theo dõi ngay trên thiết bị di động.</p>
+                            <p class="desc-4 d-flex wow animate__fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: fadeInLeft;"> <em class="icon-fontello-record"></em> Trích xuất Báo cáo theo Thông tư 34/2018/TT_BYT của Bộ Y tế.</p>
+                            <a class="l-link d-flex wow animate__fadeInLeft" data-wow-delay="0.4s" data-wow-duration="1500ms" href="javascript:void(0)" data-toggle="modal" data-target="#myModal" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.4s; animation-name: fadeInLeft;">Dùng thử ngay <em class="icon-arrow-right"></em></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 offset-lg-1">
+                        <img src="https://smed.vn/Template/image/feature/feature-e.png" class="wow animate__fadeInRight" data-wow-delay="0.3s" data-wow-duration="1500ms" alt="Báo cáo thống kê" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: fadeInRight;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="banggia" class="price-2 page-section">
+        <h2 class="title-3 wow animate__fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.1s; animation-name: fadeInUp;">BẢNG GIÁ DỊCH VỤ</h2>
+        <p class="desc-3 wow animate__fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: fadeInUp;">Hãy lựa chọn gói giải pháp phù hợp với nhu cầu của bạn và dùng thử miễn phí ngay hôm nay.</p>
+    
+        <div class="container-s">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-5 col-md-6">
+                    <div class="item-pr-2 wow animate__slideInUp" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: slideInUp;">
+                        <div class="card-titles">
+                            <h3 class="title-5 wow animate__slideInUp" data-wow-delay="0.1s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.1s; animation-name: slideInUp;">Cơ sở tiêm đơn lẻ</h3>
+                        </div>
+                        <div class="card-bodys">
+                            <div class="ov-hidden">
+                                <img src="https://smed.vn/Template/image/price/price-1.png" class="pr-img pr-img-1 wow animate__slideInUp" data-wow-delay="0.2s" data-wow-duration="1500ms" alt="Cơ sở tiêm đơn lẻ" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.2s; animation-name: slideInUp;">
+                            </div>
+    
+                            <p class="wow animate__slideInUp" data-wow-delay="0.3s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: slideInUp;">Không giới hạn người dùng</p>
+                            <p class="wow animate__slideInUp" data-wow-delay="0.4s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.4s; animation-name: slideInUp;">Full tính năng</p>
+                            <p class="wow animate__slideInUp" data-wow-delay="0.5s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.5s; animation-name: slideInUp;">Không phí khởi tạo</p>
+                            <span class="pr-only wow animate__slideInUp" data-wow-delay="0.6s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.6s; animation-name: slideInUp;">Giá chỉ từ</span>
+                            <div class="pr-tite  d-flex justify-content-center">
+                                <h4 class="it-price">15.000</h4>
+                                <div class="it-curen"><span class="it-curen-vn">VNĐ</span><span class="it-curen-mon">/ ngày </span></div>
+                            </div>
+                            <a class="btn btn-green t-link w-100 mb-0" href="javascript:void(0)" data-toggle="modal" data-target="#myModal">Đăng ký dùng thử</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 col-lg-offset-1">
+                    <div class="item-pr-2 wow animate__slideInUp" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: slideInUp;">
+                        <div class="card-titles">
+                            <h3 class="title-5 wow animate__slideInUp" data-wow-delay="0.1s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.1s; animation-name: slideInUp;">Chuỗi cơ sở tiêm</h3>
+                        </div>
+                        <div class="card-bodys">
+                            <div class="ov-hidden">
+                                <img src="https://smed.vn/Template/image/price/price-2.png" class="pr-img mt-0 pr-img-2 wow animate__slideInUp" data-wow-delay="0.2s" data-wow-duration="1500ms" alt="Chuỗi cơ sở tiêm" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.2s; animation-name: slideInUp;">
+                            </div>
+    
+                            <p class="wow animate__slideInUp" data-wow-delay="0.3s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.3s; animation-name: slideInUp;">Không giới hạn người dùng</p>
+                            <p class="wow animate__slideInUp" data-wow-delay="0.4s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.4s; animation-name: slideInUp;">Full tính năng</p>
+                            <p class="wow animate__slideInUp" data-wow-delay="0.5s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.5s; animation-name: slideInUp;">Không phí khởi tạo</p>
+                            <p class="mg-top-35">&nbsp;</p>
+                            <a class="btn btn-yellow t-link w-100 contact-cl" href="#lienhe">Liên hệ</a>
+                            <a class="btn btn-green t-link w-100" href="javascript:void(0)" data-toggle="modal" data-target="#myModal">Đăng ký dùng thử</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="promotion" class="promotion ">
+        <h2 class="title-3 wow animate__fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.1s; animation-name: fadeInUp;">Đăng ký ngay hôm nay để nhận <span class="cl-red">Ưu đãi KHỦNG</span> </h2>
+        <div class="container-s container-md" style="overflow:hidden">
+            <div class="loading text-center" style="display: none;">Đang tải, xin chờ trong giây lát...</div>
+            <div class="slick-promotion wow animate__flipInX slick-initialized slick-slider slick-dotted" data-wow-delay="0.1s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.1s; animation-name: flipInX;"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="display: inline-block;">Previous</button><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4956px; transform: translate3d(-708px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 708px;"><div><div class="slick-item " style="width: 100%; display: inline-block;">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" tabindex="-1"><img src="/img/slider-3.jpg" alt="Đăng ký ngay hôm nay để nhận Ưu đãi KHỦNG"></a>
+                </div></div></div><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" role="tabpanel" id="slick-slide20" style="width: 708px;" aria-describedby="slick-slide-control20"><div><div class="slick-item" style="width: 100%; display: inline-block;">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" tabindex="0"> <img src="/img/slider-1.jpg" alt="Đăng ký ngay hôm nay để nhận Ưu đãi KHỦNG"></a>
+                </div></div></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" role="tabpanel" id="slick-slide21" style="width: 708px;" aria-describedby="slick-slide-control21" tabindex="-1"><div><div class="slick-item " style="width: 100%; display: inline-block;">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" tabindex="-1"><img src="/img/slider-2.jpg" alt="Đăng ký ngay hôm nay để nhận Ưu đãi KHỦNG"></a>
+                </div></div></div><div class="slick-slide" data-slick-index="2" aria-hidden="true" role="tabpanel" id="slick-slide22" style="width: 708px;" aria-describedby="slick-slide-control22" tabindex="-1"><div><div class="slick-item " style="width: 100%; display: inline-block;">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" tabindex="-1"><img src="/img/slider-3.jpg" alt="Đăng ký ngay hôm nay để nhận Ưu đãi KHỦNG"></a>
+                </div></div></div><div class="slick-slide slick-cloned" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 708px;"><div><div class="slick-item" style="width: 100%; display: inline-block;">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" tabindex="-1"> <img src="/img/slider-1.jpg" alt="Đăng ký ngay hôm nay để nhận Ưu đãi KHỦNG"></a>
+                </div></div></div><div class="slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 708px;"><div><div class="slick-item " style="width: 100%; display: inline-block;">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" tabindex="-1"><img src="/img/slider-2.jpg" alt="Đăng ký ngay hôm nay để nhận Ưu đãi KHỦNG"></a>
+                </div></div></div><div class="slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" tabindex="-1" style="width: 708px;"><div><div class="slick-item " style="width: 100%; display: inline-block;">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" tabindex="-1"><img src="/img/slider-3.jpg" alt="Đăng ký ngay hôm nay để nhận Ưu đãi KHỦNG"></a>
+                </div></div></div></div></div><button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button><ul class="slick-dots" style="" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control20" aria-controls="slick-slide20" aria-label="1 of 3" tabindex="0" aria-selected="true">1</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control21" aria-controls="slick-slide21" aria-label="2 of 3" tabindex="-1">2</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control22" aria-controls="slick-slide22" aria-label="3 of 3" tabindex="-1">3</button></li></ul></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-footer">
+                    <h3 class="footer__heading">
+                        Giới thiệu
+                    </h3>
+                    <span class="footer-item">
+                        Phần mềm Quản lý phòng Tiêm chủng dịch vụ BKVacine quản lý tổng thể, toàn diện quy trình tiêm chủng dịch vụ tại các cơ sở tiêm, đáp ứng nhu cầu quản trị vận hành, đồng thời tăng hiệu suất kinh doanh và chăm sóc khách hàng tại cơ sở.
+                    </span>
+                </div>
+                <div class="grid__column-footer">
+                    <h3 class="footer__heading">
+                        Liên kết
+                    </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+
+                                Điều khoản bảo mật
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                
+                                Chính sách bảo hành
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                
+                                Hình thức thanh toán
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="grid__column-footer">
+                    <h3 class="footer__heading">
+                        Theo dõi
+                    </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-facebook"></i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-instagram"></i>
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-linkedin-in"></i>
+                                Linkedin
+                            </a>
+                        </li>
+                    </ul>
+
+                    
+                </div>
+                <div class="grid__column-footer">
+                    <h3 class="footer__heading">
+                        Liên hệ
+                    </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                TRẠM Y TẾ BÁCH KHOA - BACH KHOA CLINICS
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                GPKD: 0109143493 – cấp ngày 25/3/2020
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fas fa-map-marker-alt"></i>
+                                Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fas fa-phone"></i>
+                                0936341920
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon far fa-envelope"></i>
+                                bk-chich@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/slider.js"></script>
+</body>
+</html>
